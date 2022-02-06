@@ -2,7 +2,7 @@ name: Update Github Stats Gist
 on:
     workflow_dispatch:
     schedule:
-        - cron: '0 */10,*/15,*/20,*/24 * * *'
+        - cron: '0 */2 * * *'
     push:
         branches: master
 jobs:
